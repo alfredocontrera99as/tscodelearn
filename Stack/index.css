@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 50vw 50vw;
+}
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1fr;
+    padding: 200px;
+
+}
+.menu-buttons-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 300px;
+    text-align: center;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 200px;
+    height: 90vh;
+    width: 45vw;
+    overflow-y: scroll;
+    border-left: 1px solid black;
+}
+.stack {
+    color: #fff;
+    background-color: #24f;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+/* buttons forms */
+.buttonForm {
+    background-color: #24f;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 4px;
+    width: 250px;
+    font-size: 16px;
+
+}
+#text{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* status stack */
+.statusStack{
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    box-shadow: 0 0 4px #000;
+}
+#length, .status-container{
+    color: #24f;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    font-size: 28px;
+    height: 100px;
+}
